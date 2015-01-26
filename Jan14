@@ -1,0 +1,28 @@
+Dynamic Content
+     Ruby
+     - why Ruby
+          interesting language
+          Rails use it
+          Symbiosis
+     - Ruby basis
+          Scripting language
+          Metaprogramming
+          Pure Object-oriented language (even primitive types in Java)
+          Many features
+     - Competitors
+          PHP, JavaScript (Node.JS), Python >> All are scripting languages
+     - Syntax
+          Newline is a separator!
+          Indentation is not forced, but good style (Different from Python which uses indentation as separator)
+     - Variables
+          Dynamically typed: variable not typed -> values have types >> variables can hold different types of values at different times
+          No declarations
+     -Built-in types
+          Numbers
+          Strings: Syntax
+          Symbols  :foo
+          true, false, null
+          Arrays
+          Hashes
+Forms: user input
+Interactive pages
