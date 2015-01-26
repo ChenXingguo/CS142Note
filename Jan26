@@ -1,0 +1,34 @@
+Intro to Relational Database
+     Tables/ Relations
+          rows/tuples/record
+          columns/attribute  [ type: VARCHAR(SIZE)/DATE/FLOAT/INT  (one thing in each column) ]
+          primary key - unique identifier
+     Schema - structure
+          name of the table, names/ types of attributes, constraints (tuples are not part of schema)
+     SQL - Structured Query Language
+          standardized (partially)
+          uses mySQL in this class
+          no name convention
+
+Query name &extract info
+     - specify “what”: name by contents
+     - DB decides how
+     - SELECT(attribute)/ FROM(table(s))/ WHERE(cond)/ ORDER BY(attributes) (DESC, ASC - default)
+     - UPDATE(table)/ SET(value)/ WHERE (cond)
+
+Joins: relationships between tables
+     many-to-one: select data from one table while taking data in other tables as condition
+     many-to-many: select data from multiple tables while taking data in multiple tables as condition)
+
+Other important features
+     Indexes: additional date structure to speed up searching
+     Transactions: guarantee atomicity of (multiple) actions
+
+Pros and cons of DB
+Pros:
+     data model
+     built-in features
+     transaction
+Cons:
+     semantic gap
+     scalability( differences between DB system, make it hard for global usage)
