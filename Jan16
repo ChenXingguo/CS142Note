@@ -1,0 +1,14 @@
+In Ruby,  instance variable cannot be referenced externally
+=> create method to refer to them
+
+Ruby can do inheritance
+
+All that matters is when you invoke objects on a method that method should exist (class does not matter)
+
+Module: collection of methods
+Use it by add it into a class (similar to multiple inheritance)
+The most used module - Enumerable : has to have a “each” method and comparison method (map method can be used without comparison)
+
+Metaprogramming
+     Reflection: metalanguage is also the programming language
+     Define "method missing"
