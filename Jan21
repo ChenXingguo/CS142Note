@@ -1,0 +1,45 @@
+Web History
+     First generation
+          Browser <-> Server <-> Disk (HTML file)
+     Second generation - CGI
+          Common Gateway Interface
+          Instead of loading file directly, run program
+Program generates HTML
+Stateless 
+     First Generation Framework
+1st language: PHP
+ASP.net, Java
+Templates
+Libraries (URLs, HTML generation, Sessions, DB Interfaces)
+     Second Genration Framework
+Rails, Django for Python
+Object-relational mapping (ORM)
+Model View Controller (MVC)
+     Third Generation Framework (Still under development)
+node.js
+Browser-centric (Run program more on browser rather than server)
+JavaScript-centric
+
+Rails - Ruby on Rails (Actually Rails on Ruby since Rails is more like a library; Ruby is a library)
+     Characteristics
+ORM
+Convention over configuration
+Highest level: cons - hides too many details
+Power/complexity ratio
+     Model-View-Contoller: running in Rails web server
+Model: manages data (like class)
+View: generate webpage/HTML - templates
+Controller: glue - respond to the incoming request, connect to one or more model to fitch that model; then makes data available to the view and the view generates the proper templates( to outside, not necessarily controller
+     Annotation
+<%=  text %> evaluate & substitute
+<%  text  %> evaluate only but not substitute - to display: concat method
+if specific HTML tags are included in text , automatically escape angle brackets as string for you, not doing the HTML thing (avoid Trojan insert as script in websites)
+     Code framework
+Select data
+Organize data
+Business logic
+     Routing
+Configuration file
+Default: /rails_intro (RailsIntro class)/hello (method) [URL]
+                                
+                     (Directory on the server: app/controllers/rails_into_controller.rb)
